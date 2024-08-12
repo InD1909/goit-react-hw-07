@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { addContact } from "../../redux/contactOps"; // Правильний імпорт асинхронного екшену
+import { addContact } from "../../redux/contactsOps"; // Правильний імпорт асинхронного екшену
 import s from "./ContactForm.module.css";
 
 const ContactForm = () => {
